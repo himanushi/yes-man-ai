@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(uv pip install:*)",
+      "Bash(conda activate:*)",
+      "Bash(pip install:*)",
+      "Bash(C:Usersma5anminiconda3envstts-testScriptspip.exe install --upgrade pip setuptools wheel)",
+      "Bash(\"/c/Users/ma5an/miniconda3/envs/tts-test/Scripts/pip.exe\" install --upgrade pip setuptools wheel)",
+      "Bash(\"/c/Users/ma5an/miniconda3/envs/tts-test/Scripts/pip.exe\" install TTS)",
+      "Bash(\"/c/Users/ma5an/miniconda3/envs/tts-test/Scripts/pip.exe\" install git+https://github.com/coqui-ai/TTS)",
+      "Bash(uv sync:*)",
+      "Bash(uv venv:*)",
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(uv pip:*)"
     ],
     "deny": [],
     "ask": []
