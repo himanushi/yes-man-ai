@@ -1,0 +1,53 @@
+# 音声データ（サイズが大きいためgit管理外）
+voice-training/data/raw/**
+voice-training/data/processed/**
+voice-training/data/models/**
+
+# 動画ファイル
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 音声ファイル
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.npm
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 学習中間ファイル
+*.ckpt
+*.pt
+*.pth
+checkpoint/
