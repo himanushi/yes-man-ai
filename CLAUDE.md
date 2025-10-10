@@ -1,7 +1,5 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## プロジェクト概要
 
 Yes Manの陽気で明るい性格を持つ、LLMベースの音声会話アシスタントシステム。ユーザーと自然言語で対話できるアプリケーション。
